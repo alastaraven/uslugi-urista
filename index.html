@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" shrink-to-fit="no">
+	<title>Uslugi-urista</title>
+	<link rel="stylesheet" href="vendor/bulma/css/bulma.min.css">
+	<link rel="stylesheet" href="vendor/bulma/css/bulma-checkradio.min.css">
+	<link rel="stylesheet" href="vendor/bulma/css/bulma-pricingtable.min.css">
+	<link rel="stylesheet" href="vendor/bulma/css/bulma-accordion.min.css">
+	<link rel="stylesheet" href="vendor/bulma/css/bulma-carousel.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+		integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+	<!-- Hero -->
+	<section class="hero is-success is-medium">
+		<header class="hero-head">
+			<nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+				<div class="container">
+					<div class="navbar-brand">
+						<a href="/" class="navbar-item">
+							<!-- <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo"> -->
+							<span class="title">ONLAWYER</span>
+						</a>
+						<a role="button" class="navbar-burger" data-target="navbarMenuHeroB" aria-label="menu"
+							aria-expanded="false">
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+					</div>
+					<div id="navbarMenuHeroB" class="navbar-menu">
+						<div class="navbar-end">
+							<a href="tel:" class="navbar-item">
+								9 (989) 989-98-98
+							</a>
+							<a href="mailto:" class="navbar-item">
+								online@lawyer.mail.com
+							</a>
+							<span class="navbar-item">
+								<button class="button is-success is-inverted modal-button js-modal-trigger" data-target="modal-bz"
+									aria-haspopup="true">
+									ПАРТНЕР BIZNES ZONE
+								</button>
+							</span>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<!-- Biznes Zone Modal -->
+		<div id="modal-bz" class="modal is-clipped">
+			<div class="modal-background"></div>
+			<div class="modal-content">
+				<div class="box">
+					<div class="block">
+						<p class="is-size-7">Центр поддержки бизнеса</p>
+						<p class="tag is-large is-success">BIZNES ZONE</p>
+					</div>
+					<div class="content is-medium">
+						<div class="columns">
+							<div class="column">
+								<h4 class="title is-4 has-text-dark">Сделаем сайт для любого бизнеса!</h4>
+								<p class="is-size-6">Выберите любой удобный для вас способ связи:</p>
+								<ul class="has-text-success" style="list-style-type: none; margin-left: 0em;">
+									<li>
+										<span class="icon is-small is-left is-medium">
+											<i class="fas fa-phone"></i>
+										</span>
+										<a href="tel:89283175808">
+											8 (928) 317-58-08
+										</a>
+									</li>
+									<li><span class="icon is-small is-left is-medium">
+											<i class="fas fa-envelope"></i>
+										</span>
+										<a href="mailto:bizneszona@yandex.ru">
+											bizneszona@yandex.ru
+										</a>
+									</li>
+									<li>
+										<span class="icon is-small is-left is-medium">
+											<i class="fas fa-external-link"></i>
+										</span>
+										<a target="_blank" href="https://biznesone.ru">
+											biznesone.ru
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="column">
+								<figure class="image is-4by3">
+									<!-- <img src="https://bulma.io/images/placeholders/640x480.png"> -->
+									<img class="image is-128x128" width="100%" height="100%" title="Image from static.vecteezy.com"
+										src="https://static.vecteezy.com/system/resources/previews/009/346/275/large_2x/3d-render-icon-search-engine-illustration-free-png.png">
+								</figure>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<button class="modal-close is-large" aria-label="close"></button>
+		</div>
+		<!-- / Biznes Zone Modal -->
+
+		<div class="hero-body">
+			<div class="container">
+				<div class="columns is-vcentered">
+					<div class="column is-two-thirds">
+						<div class="block">
+							<h1 class="title is-1 is-size-3-mobile is-spaced">
+								Онлайн сопровождение бизнеса
+							</h1>
+							<p class="subtitle">
+								Юрист всегда рядом. Постоянно
+							</p>
+							<div class="buttons are-medium">
+								<a href="#tarify" class="button is-rounded is-dark">Попробовать бесплатно</a>
+								<a href="#napravleniya" class="button is-success is-rounded">Подробнее</a>
+							</div>
+
+						</div>
+					</div>
+					<div class="column">
+						<div class="box">
+							<div class="content has-text-centered">
+								<h5 class="title is-5 has-text-dark">
+									Пожалуйста, заполните форму для отправки заявки
+								</h5>
+							</div>
+							<form action="" method="" id="">
+								<div class="field">
+									<label class="label" name="" id="">Номер телефона</label>
+									<div class="control has-icons-left">
+										<input class="input" type="text" placeholder="+7 (8) . . .">
+										<span class="icon is-small is-left">
+											<i class="fa fa-mobile"></i>
+										</span>
+									</div>
+								</div>
+
+								<div class="field">
+									<label class="label" name="" id="">Email</label>
+									<div class="control has-icons-left">
+										<input class="input" type="email" placeholder="email@adress.org">
+										<span class="icon is-small is-left">
+											<i class="fas fa-envelope"></i>
+										</span>
+									</div>
+								</div>
+
+								<div class="field">
+									<label class="label" name="" id="">Комментарий</label>
+									<div class="control">
+										<textarea class="textarea" placeholder="Необязательное пояснение к заявке"></textarea>
+									</div>
+								</div>
+
+								<div class="field">
+									<div class="control">
+										<input type="checkbox" id="checkbox" name="checkbox" class="is-checkradio is-success">
+										<label for="checkbox">
+											Соглашаюсь с <a class="has-text-success modal-button js-modal-trigger"
+												data-target="modal-js-privacy-policy" href="#">правилами и условиями сайта</a>
+										</label>
+									</div>
+								</div>
+								<div class="field">
+									<div class="control">
+										<button type="submit" class="button is-medium is-fullwidth is-success">Отправить</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="hero-foot">
+			<nav class="tabs is-boxed is-medium is-centered is-fullwidth">
+				<div class="container has-text-centered">
+					<ul>
+						<li class="is-active">
+							<a>
+								<div class="content">
+									<span class="is-size-1 has-text-weight-medium">50<sup>+</sup></span>
+									<sup class="is-uppercase is-size-5 has-text-dark">Бизнесменов</sup>
+									<p class="is-size-6 has-text-dark">уже пользуются услугой</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a>
+								<div class="content">
+									<span class="is-size-1 has-text-weight-medium">24<span class="is-size-4"> : </span>7</span>
+									<sup class="is-uppercase is-size-5">Поддержка</sup>
+									<p class="is-size-6">бизнеса онлайн</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a>
+								<div class="content">
+									<span class="is-size-1 has-text-weight-medium">95,5<span class="is-size-4">% </span></span>
+									<sup class="is-uppercase is-size-5">Успешных</sup>
+									<p class="is-size-6">дел на сегодня</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a>
+								<div class="content">
+									<sup>до</sup><span class="is-size-1 has-text-weight-medium"> 1 </span>
+									<sup class="is-uppercase is-size-5">Миллиона</sup>
+									<p class="is-size-6">рублей экономии</p>
+								</div>
+							</a>
+						</li>
+
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</section>
+	<!-- / Hero -->
+
+	<!-- Features -->
+	<section id="napravleniya" class="section mt-6">
+		<div class="container">
+			<div class="content has-text-centered">
+				<h2 class="title is-2 is-size-3-mobile pb-3">
+					Направления работы
+				</h2>
+			</div>
+			<div class="tile is-ancestor">
+				<div class="tile is-vertical is-8">
+					<div class="tile">
+						<div class="tile is-parent is-vertical">
+							<article class="tile is-child notification is-dark">
+								<p class="title is-size-4-mobile">
+									Корпоративные споры</p>
+								<p class="subtitle">
+									Мы решаем споры, связанные с созданием юридического лица, управлением им или участием в
+									юридическом лице, являющемся коммерческой организацией.</p>
+								<div class="content"></div>
+							</article>
+							<article class="tile is-child notification is-light">
+								<p class="title is-size-4-mobile">
+									Налоговые споры</p>
+								<p class="subtitle">Юридические споры, которые возникают между налогоплательщиками или
+									другим участниками налоговых правоотношений с одной стороны и налоговыми органами и их представителями
+									с другой — это наша забота.</p>
+								<div class="content"></div>
+							</article>
+						</div>
+						<div class="tile is-parent">
+							<article class="tile is-child notification box is-white">
+								<p class="title is-size-4-mobile">
+									Защита бизнеса</p>
+								<p class="subtitle">Мы занимаемся правовой защитой бизнеса: пресекаем, предотвращаем и смягчаем влияние
+									внешних угроз; защищаем от нарушения прав и законных
+									интересов субъекта хозяйствования.</p>
+								<figure class="image is-1by1">
+									<!-- <img src="https://bulma.io/images/placeholders/640x480.png"> -->
+									<img class="image is-128x128" width="100" height="100" title="Image from static.vecteezy.com"
+										src="https://static.vecteezy.com/system/resources/previews/008/493/273/large_2x/3d-icon-growth-transparent-free-png.png"
+										alt="Law Icon Png">
+								</figure>
+							</article>
+						</div>
+					</div>
+					<div class="tile is-parent">
+						<article class="tile is-child notification is-info">
+							<p class="title is-size-4-mobile">
+								Консалтинг</p>
+							<p class="subtitle">Управленческое консультирование по широкому кругу вопросов в сфере финансовой,
+								юридической, технической, экспертной деятельности.</p>
+							<div class="content">
+							</div>
+						</article>
+					</div>
+				</div>
+				<div class="tile is-parent">
+					<article class="tile is-child notification is-success">
+						<div class="content">
+							<p class="title is-size-4-mobile">
+								Рекламация бизнеса в санкционных условиях</p>
+							<p class="subtitle">Рекламация — это письменная претензия потребителя к поставщику или продавцу товара или
+								услуги. Чаще всего рекламации составляют на ненадлежащее обслуживание, невыполнение условий договора,
+								плохое качество продукта, несоответствие показателей товара, указанных в инструкции или на этикетке,
+								бракованный товар и т. д.</p>
+							<figure class="image is-1by1">
+								<!-- <img src="https://bulma.io/images/placeholders/640x480.png"> -->
+								<img class="image is-128x128" width="100%" height="100%" title="Image from static.vecteezy.com"
+									src="https://static.vecteezy.com/system/resources/previews/008/879/449/large_2x/3d-hand-holding-bill-isolated-on-pastel-background-business-hand-using-hold-invoice-bill-expenses-under-creative-solution-concept-in-3d-paper-receipt-for-shopping-in-store-free-png.png">
+							</figure>
+							<div class="content"></div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- / Features -->
+
+	<!-- Steps -->
+	<section id="etapy" class="section is-medium">
+		<div class="content has-text-centered">
+			<h2 class="title is-2 is-size-3-mobile pb-3">
+				Этапы работы
+			</h2>
+		</div>
+		<div class="columns is-mobile-full pl-5 pr-5">
+			<div class="column is-half is-offset-one-quarter">
+				<div class="timeline is-centered">
+					<header class="timeline-header">
+						<span class="tag is-rounded is-medium is-success">Старт</span>
+					</header>
+					<div class="timeline-item is-success">
+						<div class="timeline-marker is-success"></div>
+						<div class="timeline-content">
+							<p class="heading">Этап 1</p>
+							<p>Обсуждение объёма работ. Выбор тарифа. Заключение договора</p>
+						</div>
+					</div>
+					<div class="timeline-item is-warning">
+						<div class="timeline-marker is-warning is-image is-32x32 pt-4">
+							<img width="10%" height="10%"
+								src="https://static.vecteezy.com/system/resources/previews/009/315/268/large_2x/3d-social-media-with-video-and-photo-gallery-platform-online-social-communication-applications-concept-emoji-webpage-search-icons-chat-with-smartphone-background-image-3d-render-free-png.png">
+						</div>
+						<div class="timeline-content pt-4">
+							<p class="heading">Этап 2</p>
+							<p>Оказание услуг согласно выбранному тарифу</p>
+						</div>
+					</div>
+					<header class="timeline-header">
+						<span class="tag is-rounded is-success">Выполнение</span>
+					</header>
+					<div class="timeline-item is-danger">
+						<div class="timeline-marker is-warning is-image is-32x32 pt-4">
+							<img width="10%" height="10%"
+								src="https://static.vecteezy.com/system/resources/previews/008/879/451/large_2x/white-clipboard-task-management-todo-check-list-efficient-work-on-project-plan-fast-progress-level-up-concept-assignment-and-exam-productivity-solution-icon-3d-render-on-pink-background-free-png.png">
+						</div>
+						<div class="timeline-content pt-4">
+							<p class="heading">Этап 3</p>
+							<p>Подтверждение работы. Согласование дальнейшего сотрудничества</p>
+						</div>
+					</div>
+					<header class="timeline-header">
+						<span class="tag is-rounded is-medium is-success">Финиш</span>
+					</header>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- / Steps -->
+
+	<!-- Pricing table -->
+	<section id="tarify" class="container mt-6 is-clipped-mobile">
+		<div class="content has-text-centered">
+			<h2 class="title is-2 is-size-3-mobile pb-3">
+				Тарифные планы
+			</h2>
+		</div>
+		<div class="pricing-table is-horizontal">
+			<div class="pricing-plan">
+				<div class="plan-header is-flex-wrap-wrap is-flex-direction-row is-align-items-center">
+					<span class="icon is-large is-left">
+						<i class="fa-solid fa-star"></i>
+					</span>
+					Пробный период
+				</div>
+				<div class="plan-items">
+					<div class="plan-item">Консультация по 1 делу</div>
+					<div class="plan-item">Юридическая поддержка</div>
+					<div class="plan-item">-</div>
+					<div class="plan-item">-</div>
+				</div>
+				<div class="plan-footer">
+					<div class="plan-price"><span class="plan-price-amount">0 Р</span><span class="plan-price-currency">
+							первый месяц</span>
+					</div>
+					<button class="button is-fullwidth modal-button js-modal-trigger"
+						data-target="modal-js-tarif-form">Бесплатно</button>
+				</div>
+			</div>
+
+			<div class="pricing-plan is-warning">
+				<div class="plan-header is-flex-wrap-wrap is-flex-direction-row is-align-items-center">
+					<span class="icon is-large is-left pr-5">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+					</span>
+					Стартап
+				</div>
+				<div class="plan-items">
+					<div class="plan-item">Консультация по 3 делам</div>
+					<div class="plan-item">Круглосуточная юридическая помощь</div>
+					<div class="plan-item">Проверка документов</div>
+					<div class="plan-item">-</div>
+				</div>
+				<div class="plan-footer">
+					<div class="plan-price">
+						<span class="plan-price-amount">30 000 Р</span><span class="plan-price-currency">
+							месяц</span>
+					</div>
+					<button class="button is-fullwidth modal-button js-modal-trigger" data-target="modal-js-tarif-form">Выбрать
+						план</button>
+				</div>
+			</div>
+
+			<div class="pricing-plan is-active is-success is-relative">
+				<span style="position: absolute;" class="ml-2 mt-2 tag is-rounded is-success">ПОПУЛЯРНЫЙ ТАРИФ</span>
+				<div
+					class="plan-header p-6 is-flex-wrap-wrap is-flex-direction-row is-align-items-center is-justify-content-space-evenly">
+					<span class="icon is-large is-left pr-6">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+					</span>
+					Растущая компания
+				</div>
+				<div class="plan-items">
+					<div class="plan-item">Консультация по 6 делам</div>
+					<div class="plan-item">Юридическая защита бизнеса</div>
+					<div class="plan-item">Подготовка и оформление документов</div>
+					<div class="plan-item">Досудебное урегулирование споров</div>
+				</div>
+				<div class="plan-footer">
+					<div class="plan-price">
+						<span class="plan-price-amount">60 000 Р</span><span class="plan-price-currency">
+							месяц</span>
+					</div>
+					<button class="button is-medium is-fullwidth modal-button js-modal-trigger"
+						data-target="modal-js-tarif-form">Выбрать
+						план</button>
+				</div>
+			</div>
+
+			<div class="pricing-plan is-dark">
+				<div
+					class="plan-header p-6 is-flex-wrap-wrap is-flex-direction-row is-align-items-center is-justify-content-space-evenly">
+					<span class="icon is-large is-left pr-6">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+					</span>
+					Корпорация
+				</div>
+				<div class="plan-items">
+					<div class="plan-item">Консультация по 9 делам</div>
+					<div class="plan-item">Защита интересов бизнеса в суде</div>
+					<div class="plan-item">Переговоры с контрагентами</div>
+					<div class="plan-item">Представление в налоговых органах</div>
+				</div>
+				<div class="plan-footer">
+					<div class="plan-price">
+						<span class="plan-price-amount">90 000 Р</span><span class="plan-price-currency">
+							месяц</span>
+					</div>
+					<button class="button is-fullwidth modal-button js-modal-trigger" data-target="modal-js-tarif-form">Выбрать
+						план</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- / Pricing table -->
+
+	<!-- FAQ -->
+	<section id="voprosy" class="container section is-medium">
+		<div class="content has-text-centered">
+			<h2 class="title is-2 is-size-3-mobile pb-3">
+				Основные вопросы
+			</h2>
+		</div>
+		<div class="columns ml-3 mr-3 is-vcentered is-justify-content-center is-align-content-center">
+			<div class="column">
+				<section class="accordions">
+					<article class="accordion is-active">
+						<div class="accordion-header toggle">
+							<p>Почему первый месяц бесплатно?</p>
+							<button class="toggle" aria-label="toggle"></button>
+						</div>
+						<div class="accordion-body">
+							<div class="accordion-content">
+								Разнообразный и богатый опыт говорит нам, что современная методология разработки способствует повышению
+								качества распределения внутренних резервов и ресурсов. Значимость этих проблем настолько очевидна, что
+								начало повседневной работы по формированию позиции создаёт предпосылки для своевременного выполнения
+								сверхзадачи. Прежде всего, базовый вектор развития способствует подготовке и реализации стандартных
+								подходов.
+							</div>
+						</div>
+					</article>
+					<article class="accordion">
+						<div class="accordion-header toggle">
+							<p>Какие услуги входят в тариф?</p>
+							<button class="toggle" aria-label="toggle"></button>
+						</div>
+						<div class="accordion-body">
+							<div class="accordion-content">
+								Вот вам яркий пример современных тенденций — современная методология разработки, а также свежий взгляд
+								на
+								привычные вещи — безусловно открывает новые горизонты для экспериментов, поражающих по своей
+								масштабности и
+								грандиозности. Есть над чем задуматься: реплицированные с зарубежных источников, современные
+								исследования
+								превращены в посмешище, хотя само их существование приносит несомненную пользу обществу. Но разбавленное
+								изрядной долей эмпатии, рациональное мышление не даёт нам иного выбора, кроме определения поэтапного и
+								последовательного развития общества.
+							</div>
+					</article>
+					<article class="accordion">
+						<div class="accordion-header toggle">
+							<p>Как заказать услугу?</p>
+							<button class="toggle" aria-label="toggle"></button>
+						</div>
+						<div class="accordion-body">
+							<div class="accordion-content">
+								В целом, конечно, внедрение современных методик способствует повышению качества модели развития.
+								Учитывая
+								ключевые сценарии поведения, сплочённость команды профессионалов является качественно новой ступенью
+								позиций, занимаемых участниками в отношении поставленных задач. Наше дело не так однозначно, как может
+								показаться: высокое качество позиционных исследований позволяет выполнить важные задания по разработке
+								глубокомысленных рассуждений.
+							</div>
+						</div>
+					</article>
+				</section>
+			</div>
+			<div class="column is-justify-content-end">
+				<figure class="image is-4by3">
+					<img width="100%" height="100%"
+						src="https://static.vecteezy.com/system/resources/previews/009/315/272/non_2x/white-clipboard-task-management-todo-check-list-efficient-work-on-project-plan-fast-progress-level-up-concept-assignment-and-exam-productivity-solution-icon-3d-clipboard-render-free-png.png"
+						alt="">
+				</figure>
+
+			</div>
+		</div>
+	</section>
+	<!-- / FAQ -->
+
+	<!-- Reviews -->
+	<section id="otzivy" class="section">
+		<div class="content has-text-centered">
+			<h2 class="title is-2 is-size-3-mobile pb-3">
+				Отзывы наших клиентов
+			</h2>
+			<div class="container is-clipped">
+				<!-- Start Carousel -->
+				<div id="carousel-demo" class="carousel" data-infinite="true">
+					<div class="item-1 pl-3 pr-3 pt-3 pb-6">
+						<!-- Slide Content -->
+						<div class="card">
+							<div class="card-content has-text-left">
+								<div class="media is-flex-wrap-wrap">
+									<div class="media-left">
+										<figure class="ml-0 mb-1 image is-128x128">
+											<img style="border-radius: 4px;"
+												src="https://images.unsplash.com/photo-1484186139897-d5fc6b908812?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+												alt="Placeholder image">
+										</figure>
+									</div>
+									<div class="media-content">
+										<p class="title is-4">Наталья Лазарева</p>
+										<p class="subtitle is-6">предприниматель</p>
+									</div>
+								</div>
+								<div class="content">
+									<p>
+										Однозначно, акционеры крупнейших компаний ассоциативно распределены по отраслям. Учитывая ключевые
+										сценарии поведения, существующая теория говорит о возможностях поэтапного и последовательного
+										развития общества.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item-2 pl-3 pr-3 pt-3 pb-6">
+						<!-- Slide Content -->
+						<div class="card">
+							<div class="card-content has-text-left">
+								<div class="media is-flex-wrap-wrap">
+									<div class="media-left">
+										<figure class="ml-0 mb-1 image is-128x128">
+											<img style="border-radius: 4px;"
+												src="https://images.unsplash.com/photo-1660404903919-f398d1ff4eee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+												alt="Placeholder image">
+										</figure>
+									</div>
+									<div class="media-content">
+										<p class="title is-4">Эдгар Шаров</p>
+										<p class="subtitle is-6">директор "Завода"</p>
+									</div>
+								</div>
+
+								<div class="content">
+									<p>
+										Как уже неоднократно упомянуто, акционеры крупнейших компаний представляют собой не что иное, как
+										квинтэссенцию победы маркетинга над разумом и должны быть разоблачены.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item-3 pl-3 pr-3 pt-3 pb-6">
+						<!-- Slide Content -->
+						<div class="card">
+							<div class="card-content has-text-left">
+								<div class="media is-flex-wrap-wrap">
+									<div class="media-left">
+										<figure class="ml-0 mb-1 image is-128x128">
+											<img style="border-radius: 4px;"
+												src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+												alt="Placeholder image">
+										</figure>
+									</div>
+									<div class="media-content">
+										<p class="title is-4">Владислав Меньшик</p>
+										<p class="subtitle is-6">старший менеджер</p>
+									</div>
+								</div>
+
+								<div class="content">
+									<p>
+										Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом
+										либералов, которые жаждут быть представлены в исключительно положительном свете.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item-4 pl-3 pr-3 pt-3 pb-6">
+						<!-- Slide Content -->
+						<div class="card">
+							<div class="card-content has-text-left">
+								<div class="media is-flex-wrap-wrap">
+									<div class="media-left">
+										<figure class="ml-0 mb-1 image is-128x128">
+											<img style="border-radius: 4px;"
+												src="https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+												alt="Placeholder image">
+										</figure>
+									</div>
+									<div class="media-content">
+										<p class="title is-4">Елизавета Скворцова</p>
+										<p class="subtitle is-6">блогер</p>
+									</div>
+								</div>
+								<div class="content">
+									<p>
+										Господа, глубокий уровень погружения создаёт предпосылки для как самодостаточных, так и внешне
+										зависимых концептуальных решений.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item-5 pl-3 pr-3 pt-3 pb-6">
+						<!-- Slide Content -->
+						<div class="card">
+							<div class="card-content has-text-left">
+								<div class="media is-flex-wrap-wrap">
+									<div class="media-left">
+										<figure class="ml-0 mb-1 image is-128x128">
+											<img style="border-radius: 4px;"
+												src="https://images.unsplash.com/photo-1595687825617-10c4d36566e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+												alt="Placeholder image">
+										</figure>
+									</div>
+									<div class="media-content">
+										<p class="title is-4">Софья Ардонова</p>
+										<p class="subtitle is-6">бизнесвуман</p>
+									</div>
+								</div>
+								<div class="content">
+									<p>Безусловно, постоянное информационно-пропагандистское обеспечение нашей деятельности предопределяет
+										высокую востребованность анализа существующих паттернов поведения.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item-6 pl-3 pr-3 pt-3 pb-6">
+						<!-- Slide Content -->
+						<div class="card">
+							<div class="card-content has-text-left">
+								<div class="media is-flex-wrap-wrap">
+									<div class="media-left">
+										<figure class="ml-0 mb-1 image is-128x128">
+											<img style="border-radius: 4px;"
+												src="https://images.unsplash.com/photo-1509112756314-34a0badb29d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=931&q=80"
+												alt="Placeholder image">
+										</figure>
+									</div>
+									<div class="media-content">
+										<p class="title is-4">Иван Стрельцов</p>
+										<p class="subtitle is-6">деловой партнер</p>
+									</div>
+								</div>
+								<div class="content">
+									<p>
+										Каждый из нас понимает очевидную вещь: укрепление и развитие внутренней структуры способствует
+										подготовке и реализации системы обучения кадров, соответствующей насущным потребностям.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End Carousel -->
+			</div>
+	</section>
+	<!-- / Reviews -->
+
+	<!-- CTA -->
+	<section class="section is-medium">
+		<div class="container">
+			<div class="notification is-success">
+				<div class="content has-text-centered">
+					<h5 class="title is-5">
+						Остались вопросы? Оставьте заявку, и мы свяжемся с вами
+					</h5>
+				</div>
+				<form action="" method="" id="">
+					<div class="columns">
+						<div class="column">
+							<div class="field">
+								<div class="control has-icons-left">
+									<input class="input is-medium" type="text" placeholder="+7 (8) . . .">
+									<span class="icon is-small is-left">
+										<i class="fa fa-mobile"></i>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="column">
+							<div class="field">
+								<div class="control has-icons-left">
+									<input class="input is-medium" type="email" placeholder="email@adress.org">
+									<span class="icon is-small is-left">
+										<i class="fas fa-envelope"></i>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="column">
+							<div class="field">
+								<div class="control">
+									<button type="submit" class="button is-medium is-fullwidth is-dark">Отправить</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="field has-text-centered">
+						<div class="control">
+							<input type="checkbox" id="checkbox-ok" name="checkbox-ok" class="is-checkradio is-light">
+							<label for="checkbox-ok">
+								Соглашаюсь с
+								<a class="modal-button js-modal-trigger" data-target="modal-js-privacy-policy">
+									правилами и условиями сайта</a>
+							</label>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+	<!-- / CTA -->
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="content has-text-centered">
+			<p>
+				<strong>OnLawyer</strong> 2022 &copy; Все права защищены.
+			</p>
+			<a href="tel:" class="has-text-info">
+				9 (989) 989-98-98
+			</a><br>
+			<a href="mailto:" class="has-text-info">
+				online@lawyer.mail.com
+			</a>
+			<p>Сайт разработан в <a class="has-text-info modal-button js-modal-trigger" data-target="modal-bz"
+					aria-haspopup="true"><b>Biznes Zone<b></a></p>
+			<a class="has-text-success is-ghost modal-button js-modal-trigger" data-target="modal-js-privacy-policy"
+				aria-haspopup="true">
+				Правила и условия использования сайта
+			</a>
+		</div>
+	</footer>
+
+	<div class="notification section is-radiusless is-dark has-text-centered">
+		<p>Сайт размещён на <a class="has-text-info"><b>лучшем хостинге Beget<b></a></p>
+	</div>
+	<!-- / Footer -->
+
+	<!-- Form tarif Modal -->
+	<div id="modal-js-tarif-form" class="modal">
+		<div class="modal-background"></div>
+		<div class="modal-content">
+			<div class="box">
+				<div class="content has-text-centered">
+					<h5 class="title is-5 has-text-dark">
+						Пожалуйста, заполните форму для отправки заявки
+					</h5>
+				</div>
+				<form action="" method="" id="">
+					<div class="field">
+						<label class="label" name="" id="">Номер телефона</label>
+						<div class="control has-icons-left">
+							<input class="input" type="text" placeholder="+7 (8) . . .">
+							<span class="icon is-small is-left">
+								<i class="fa fa-mobile"></i>
+							</span>
+						</div>
+					</div>
+
+					<div class="field">
+						<label class="label" name="" id="">Email</label>
+						<div class="control has-icons-left">
+							<input class="input" type="email" placeholder="email@adress.org">
+							<span class="icon is-small is-left">
+								<i class="fas fa-envelope"></i>
+							</span>
+						</div>
+					</div>
+
+					<div class="field">
+						<label class="label" name="" id="">Комментарий</label>
+						<div class="control">
+							<textarea class="textarea" placeholder="Необязательное пояснение к заявке"></textarea>
+						</div>
+					</div>
+
+					<div class="field">
+						<div class="control">
+							<input type="checkbox" id="checkbox-check" name="checkbox-check" class="is-checkradio is-success">
+							<label for="checkbox-check">
+								Соглашаюсь с <a class="has-text-success modal-button js-modal-trigger"
+									data-target="modal-js-privacy-policy">правилами и условиями сайта</a>
+							</label>
+						</div>
+					</div>
+					<div class="field">
+						<div class="control">
+							<button type="submit" class="button is-medium is-fullwidth is-success">Отправить</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<button class="modal-close is-large" aria-label="close"></button>
+	</div>
+	<!-- / Form tarif Modal -->
+
+	<!-- Privacy policy Modal -->
+	<div id="modal-js-privacy-policy" class="modal">
+		<div class="modal-background"></div>
+		<div class="modal-card">
+			<header class="modal-card-head">
+				<p class="modal-card-title">Образец политики</p>
+				<button class="delete" aria-label="close"></button>
+			</header>
+			<section class="modal-card-body">
+				<div class="content">
+					<h2>
+						Политика в отношении обработки персональных данных
+					</h2>
+					<p class="subtitle has-text-dark">1. Общие положения</p>
+					<p class="has-text-weight-normal">
+						Настоящая политика обработки персональных данных составлена в соответствии с требованиями Федерального
+						закона от 27.07.2006. №152-ФЗ «О персональных данных» (далее - Закон о персональных данных) и определяет
+						порядок обработки персональных данных и меры по обеспечению безопасности персональных данных,
+						предпринимаемые Михайловым Иваном Сергеевичем (далее – Оператор).
+						1.1. Оператор ставит своей важнейшей целью и условием осуществления своей деятельности соблюдение прав и
+						свобод человека и гражданина при обработке его персональных данных, в том числе защиты прав на
+						неприкосновенность частной жизни, личную и семейную тайну.
+						1.2. Настоящая политика Оператора в отношении обработки персональных данных (далее – Политика) применяется
+						ко всей информации, которую Оператор может получить о посетителях веб-сайта httpsː//thismywebsite·com.</p>
+					<p>...</p>
+					<p class="subtitle has-text-dark">14. Заключительные положения</p>
+					<p class="has-text-weight-normal">
+						14.1. Пользователь может получить любые разъяснения по интересующим вопросам, касающимся обработки его
+						персональных данных, обратившись к Оператору с помощью электронной почты privacy@thismywebsite·com.
+						14.2. В данном документе будут отражены любые изменения политики обработки персональных данных Оператором.
+						Политика действует бессрочно до замены ее новой версией.
+						14.3. Актуальная версия Политики в свободном доступе расположена в сети Интернет по адресу
+						httpsː//thismywebsite·com/privacy/.
+					</p>
+				</div>
+			</section>
+			<footer class="modal-card-foot">
+				<button class="button is-success">Принять</button>
+			</footer>
+		</div>
+	</div>
+	<!-- / Privacy policy Modal -->
+
+	<script src="assets/js/script.js"></script>
+	<script src="vendor/bulma/js/bulma-accordion.min.js" type="text/javascript"></script>
+	<script src="vendor/bulma/js/bulma-carousel.min.js" type="text/javascript"></script>
+	<script>// ---------- Accordion ---------- //
+		var accordions = bulmaAccordion.attach(); // accordions now contains an array of all Accordion instances</script>
+	<script>// ---------- Carousel ---------- //
+		bulmaCarousel.attach('#carousel-demo', {
+			slidesToScroll: 1,
+			slidesToShow: 4
+		});
+	</script>
+</body>
+
+</html>
